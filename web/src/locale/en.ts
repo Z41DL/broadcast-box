@@ -3,11 +3,11 @@ import { localeInterface } from "./localeInterface"
 const locale_en: localeInterface = {
   locale: "en",
   frontpage: {
-    welcome: "Welcome to Broadcast Box",
-    welcome_subtitle: "Broadcast Box is a tool that allows you to efficiently stream high-quality video in real time, using the latest in video codecs and WebRTC technology.",
+    welcome: "Welcome to Zai's Corner!",
+    welcome_subtitle: "A place for me and my friends :D",
 
-    toggle_watch: "I want to watch",
-    toggle_stream: "I want to stream",
+    toggle_watch: "I wanna watch!",
+    toggle_stream: "I wanna stream!",
 
     stream_input_label: "Stream key",
     stream_input_placeholder_share: "Insert the key of the stream you want to share",
@@ -58,13 +58,13 @@ const locale_en: localeInterface = {
     warning: "Warning",
 
     mediaAccessError_default: "Could not access your media devices",
-    mediaAccessError_noMediaDevices: "MediaDevices API was not found. Publishing in Broadcast Box requires HTTPS",
+    mediaAccessError_noMediaDevices: "MediaDevices API was not found. Publishing in Zai's Corner requires HTTPS",
     mediaAccessError_notAllowedError: "You can't publish stream using your camera, access has been disabled.",
     mediaAccessError_notFoundError: "Seems like you don't have camera. Or the access to it is blocked\nCheck camera settings, browser permissions and system permissions.",
 
     connection_established: "Live: Currently streaming to",
     connection_disconnected: "WebRTC has disconnected or failed to connect at all",
-    connection_failed: "Failed to start Broadcast Box session",
+    connection_failed: "Failed to start Zai's Corner session",
     connection_has_packetloss: "WebRTC is experiencing packet loss",
 
     publish_screen: "Publish Screen/Window/Tab",

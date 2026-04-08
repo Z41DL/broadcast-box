@@ -32,13 +32,13 @@ const RootWrapper = () => {
       <footer className="mx-auto px-2 container py-6">
         <ul className="flex items-center justify-center mt-3 text-sm:mt-0 space-x-4">
           <li>
-            <a href="https://github.com/Glimesh/broadcast-box" className="hover:underline">GitHub</a>
+            <a href="" className="hover:underline"></a>
           </li>
           <li>
-            <a href="https://pion.ly" className="hover:underline">Pion</a>
+            <a href="" className="hover:underline"></a>
           </li>
           <li>
-            <a href="https://glimesh.tv" className="hover:underline">Glimesh</a>
+            <a href="" className="hover:underline"></a>
           </li>
         </ul>
       </footer>
