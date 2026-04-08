@@ -6,7 +6,7 @@ interface HeaderProviderContextProps {
 }
 
 export const HeaderContext = React.createContext<HeaderProviderContextProps>({
-	title: "BroadcastBox",
+	title: "Zai's Corner",
 	setTitle: () => { },
 });
 
@@ -15,11 +15,11 @@ interface HeaderProviderProps {
 }
 
 export function HeaderProvider(props: HeaderProviderProps) {
-	const [title, setTitle] = useState("BroadcastBox")
+	const [title, setTitle] = useState("Zai's Corner")
 
 	const state = useMemo<HeaderProviderContextProps>(() => ({
 		title: title,
-		setTitle: (value) => setTitle(() => value !== "" ? `BroadcastBox - ${value}` : "BroadcastBox")
+		setTitle: (value) => setTitle(() => value !== "" ? `Zai's Corner - ${value}` : "Zai's Corner")
 	}), [title]);
 
 	return (
