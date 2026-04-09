@@ -22,15 +22,7 @@ export function LocalesModal(props: Props) {
   }, [isOpen, onClose])
 
   if (!isOpen) {
-    return (
-      <div className="cursor-default select-none flex justify-end flex-row w-min" >
-        <div
-          className="flex text-lg gap-2 w-min"
-          onClick={() => setIsOpen((prev) => !prev)}>
-          Locales
-          {getIcon("Language")}
-        </div>
-      </div>)
+    return null;
   }
 
   return (
